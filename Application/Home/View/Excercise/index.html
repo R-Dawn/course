@@ -1,0 +1,23 @@
+<include file="Public:menu" />
+<div class="bs-header" >
+      <div class="container">      
+        <h1>
+        <img src="__PUBLIC__/img/logo.png">&nbsp;&nbsp;人工智能原理</h1>
+        <p>暨南大学计算机科学系</p>        
+      </div>
+</div>
+<?php
+	$excercise_set = M("excercise_set");
+	$setlist  = $excercise_set->where("excercise_count>0")->order("setid")->select();
+	if($setlist==null){
+		echo "<script>alert('系统暂无习题！');</script>";
+	}
+?>
+<div class="container">
+    <div class="row">
+      <div class="col-md-2 col-md-offset-1" style="margin-top: 50px">
+          <ul class="nav nav-pills nav-stacked">          
+          	<li class="active"><a href="javascript:;" onclick="switchdata('resource');">课外资料&nbsp;&nbsp;<i class='glyphicon  glyphicon-chevron-right'></i></a></li>                
+          	               
+          </ul>
+      </div>

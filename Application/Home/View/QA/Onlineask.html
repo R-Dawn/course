@@ -1,0 +1,22 @@
+<include file="Public:menu"/>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#mymenu .active").removeClass("active");
+		$("#mymenu li:eq(8)").addClass("active");
+	});
+</script>
+<div class="container" style="padding-top: 80px">
+	<form class="form" action="__ROOT__/Home/QA/question" method="post">
+		<div class="form-group">
+			<label>写下您的问题</label>
+			<textarea  name="question" class="form-control" style="width: 50%;" rows="5"></textarea>
+		</div>
+		<div class="form-group">
+			<label>写下您的email:</label>
+			<input name="email">
+		</div>
+		<div class="form-group">
+			<button class="btn btn-primary">提交问题</button>
+		</div>
+	</form>
+</div>

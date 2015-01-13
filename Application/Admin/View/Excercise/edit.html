@@ -1,0 +1,44 @@
+<include file="Public:menu" />
+<script src="__PUBLIC__/js/ckeditor/ckeditor.js"></script>
+<script src="__PUBLIC__/js/ckeditor/adapters/jquery.js"></script>
+<div class="container" style="padding-top: 80px">
+    <div class="row">
+     <!--左半部分导航开始-->
+        <div class="col-md-2 col-md-offset-1">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="__ROOT__/admin">个人资料</a></li>   
+                <li><a href="__ROOT__/admin/Introduction">课程介绍</a></li>
+                <li><a href="__ROOT__/admin/Teachingplan">电子教案</a></li> 
+                <li class="active"><a href="__ROOT__/admin/Excercise">习题库</a></li>   
+                <li><a href="__ROOT__/admin/Onlineask">在线问答</a></li>
+                <li><a href="__ROOT__/admin/More">扩展阅读</a></li>          
+            </ul>
+        </div>
+     
+     <!--左半部分导航结束-->
+
+     <!--右半部分内容开始-->
+        <div class="col-md-9">
+		<?php
+			$excercise = M("excercise");
+			$question = $excercise->where("id='".$id."'")->getField("question");
+			$answer = $excercise->where("id='".$id."'")->getField("answer");
+			$setid = $excercise->where("id='".$id."'")->getField("setid");
+		?>
+		<form action = "__ROOT__/admin/excercise/saveEdit" method="post">
+			<div>
+			<h3><span>编辑习题</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="__ROOT__/admin/Excercise/enter?ch={$setid}" type="button" class="btn btn-primary">返回习题列表</a>&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="btn btn-primary">保存修改</button></h3>							
+			</div>
+			<h4>修改问题：</h4><textarea name="question" id="editor1">{$question}</textarea>
+			<h4>修改答案：</h4><textarea name="answer" id="editor2">{$answer}</textarea>
+			<input type="hidden" name="id" value="{$id}">
+		</form>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#editor1").ckeditor();
+				$("#editor2").ckeditor();
+			});
+		</script>
+	</div> <!-- span9 -->
+</div>  <!-- row结束 -->
+</div>	<!-- container结束 -->

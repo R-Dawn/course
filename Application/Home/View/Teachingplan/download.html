@@ -1,0 +1,15 @@
+<include file="Public:menu" />
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#mymenu .active").removeClass("active");
+		$("#mymenu li:eq(5)").addClass("active");
+	});
+</script>
+<div class="container" style="margin-top:100px">
+	<div class="jumbotron">
+	  <h1>下载我们的教案</h1>
+	  <p>&nbsp;&nbsp;点击按钮下载你想要的教案类型</p>
+	  <p>&nbsp;&nbsp;<a href="__PUBLIC__/AIppt.zip" class="btn btn-primary btn-lg" role="button">下载ppt</a>&nbsp;&nbsp;
+	  <a href="__PUBLIC__/AIswf.zip" class="btn btn-primary btn-lg" role="button">下载swf</a></p>
+	</div>
+</div>

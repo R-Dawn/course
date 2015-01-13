@@ -1,0 +1,17 @@
+<include file="Public:menu" />
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#mymenu .active").removeClass("active");
+		$("#mymenu li:eq(1)").addClass("active");
+	});
+</script>
+<?php 
+	$Introduction = M("Introduction");
+	$data = $Introduction->select();
+	$calendar = $data[0]["calendar"];
+	
+
+?>
+<div class = "container" style="padding-top:80px; padding-left:200px; padding-right:200px;">
+	<?php echo $calendar;?>
+</div>

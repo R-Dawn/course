@@ -1,0 +1,58 @@
+<include file="Public:menu" />
+
+<div class="container" style="padding-top: 80px">
+	<script type="text/javascript" src="__PUBLIC__/js/ckeditor/ckeditor.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/ckeditor/adapters/jquery.js"></script>
+    <div class="row">
+     <!--左半部分导航开始-->
+        <div class="col-md-2 col-md-offset-1">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="__ROOT__/admin">个人资料</a></li>   
+                <li><a href="__ROOT__/admin/Introduction">课程介绍</a></li>
+                <li><a href="__ROOT__/admin/Teachingplan">电子教案</a></li> 
+                <li class="active"><a href="__ROOT__/admin/Excercise">习题库</a></li>   
+                <li><a href="__ROOT__/admin/Onlineask">在线问答</a></li>
+                <li><a href="__ROOT__/admin/More">扩展阅读</a></li>          
+            </ul>
+        </div>
+     
+     <!--左半部分导航结束-->
+
+     <!--右半部分内容开始-->
+        <div class="col-md-9">
+
+		<div>
+			<h3><span>为Set{$setid}添加习题</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="__ROOT__/admin/Excercise/enter?ch={$setid}" type="button" class="btn btn-primary">返回习题列表</a></h3>							
+		</div>
+		<form action="__ROOT__/admin/Excercise/saveAdd" method="post" enctype="multipart/form-data">			
+			<div id="uppic">
+				<h4>插入图片：<button onclick="return addpic();">添加图片</button></h4>
+				<input type="file" name="file1">
+				<script type="text/javascript">
+					function addpic(){
+						var lastinput = $("#uppic input:last");
+						var num = lastinput.attr("name").substr(4);
+						var new_num = parseInt(num)+1;
+						var new_name = "file"+new_num;
+						var newinput = "<input type='file' name='"+new_name+"'>";
+						lastinput.after(newinput);	
+
+						return false;					
+					}
+				</script>
+			</div>
+			<h4>请输入问题：</h4><textarea name="question" id="editor1"></textarea>
+			<h4>请输入答案：</h4><textarea name="answer" id="editor2"></textarea>
+			<input type="hidden" name="ch" value="{$setid}">
+			<button type="submit" class="btn btn-primary">保存</button>
+		</form>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#editor1").ckeditor();
+				$("#editor2").ckeditor();
+			});
+		</script>
+
+	</div> <!-- span9 -->
+</div>  <!-- row结束 -->
+</div>	<!-- container结束 -->

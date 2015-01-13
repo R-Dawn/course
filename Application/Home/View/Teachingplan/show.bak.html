@@ -1,0 +1,37 @@
+<include file="Public:menu" />
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#mymenu .active").removeClass("active");
+    $("#mymenu li:eq(5)").addClass("active");
+  });
+</script>
+<script type="text/javascript">
+	function switchChapter(ch){
+		$("#myswf").remove();
+    $('.row ul .active').removeClass('active');
+    nch = ch-1;
+    $(".row ul li:eq("+nch+")").addClass("active");
+		$("#myobj").append("<param id='myswf' name='movie' value='__PUBLIC__/swf/c"+ch+".swf'>");
+	}
+  $(document).ready(function(){
+    $(".row ul li:eq(0)").addClass("active");
+  });
+</script>
+<div class="container">
+    <div class="row">
+      <div class="col-md-2 col-md-offset-1" style="margin-top: 50px">
+          <ul class="nav nav-pills nav-stacked">
+          <?php
+           for($c = 1; $c < 7; $c++)
+              echo "<li><a  href='javascript:;'onclick='switchChapter(".$c.");'>Chapter $c&nbsp;&nbsp;<i class='glyphicon  glyphicon-chevron-right'></i></a></li>";              
+          ?>                  
+          </ul>
+      </div>
+      <div class="col-md-7">
+          <object id="myobj" type="application/x-shockwave-flash" width="720" height="540"> 
+	          <param id="myswf" name="movie" value="__PUBLIC__/swf/c1.swf"> 
+	          <param name="wmode" value="transparent"> 
+        </object>
+      </div>
+    </div>
+</div>

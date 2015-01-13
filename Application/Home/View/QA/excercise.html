@@ -1,0 +1,57 @@
+<include file="Public:menu" />
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#mymenu .active").removeClass("active");
+    $("#mymenu li:eq(8)").addClass("active");
+  });
+</script>
+<?php
+  $excercise_set = M("excercise_set");
+  $setlist  = $excercise_set->where("excercise_count>0")->order("setid")->select();
+  if($setlist==null){
+    echo "<script>alert('系统暂无习题！');</script>";return;
+  }
+?>
+
+<script>
+    $(document).ready(function(){
+      $("#set<?php 
+        if($flag==0)
+          echo $setlist[0]["setid"];      
+        else echo $flag;
+        
+      ?>").addClass("active");
+      
+    });
+</script>
+<div class="container"  style="margin-top: 50px">
+    <div class="row">
+      <div class="col-md-2 col-md-offset-1">
+          <ul class="nav nav-pills nav-stacked">          
+            <?php
+              foreach ($setlist as $key => $value) {
+                $setid = $value["setid"];
+                echo "<li id='set".$setid."'><a href='__ROOT__/Home/QA/Excercise?setid=".$setid."'>套题$setid &nbsp;&nbsp;<i class='glyphicon  glyphicon-chevron-right'></i></a></li>"  ;
+              }
+            ?>         
+          </ul>
+      </div>
+      <div class="col-md-7 col-md-offset-1">
+          <?php 
+            if($flag==0)
+              $setid = $setlist[0]["setid"];
+            else $setid = $flag;
+            $Excercise = M("Excercise");
+            $excercise_list = $Excercise->where("setid='".$setid."'")->order("id")->select();
+            $i = 0;
+            foreach ($excercise_list as $key => $value) {
+                $i++;
+                $question = $value["question"];
+                $answer = $value["answer"];
+                echo "<div><h3>Excercise$i</h3>$question</div>";
+                echo "<button type='button' class='btn btn-danger' data-toggle='collapse' data-target='#demo$i'>查看答案</button>";
+                echo "<div id='demo$i' class='collapse'></br>$answer</div>";
+                echo "<hr>";
+            }
+          ?>
+      </div>

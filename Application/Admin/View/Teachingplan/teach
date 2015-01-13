@@ -1,0 +1,70 @@
+<include file="Public:menu" />
+
+<div class="container" style="padding-top: 80px">
+      <div class="row">
+        <!--左半部分导航开始-->
+        <div class="col-md-2 col-md-offset-1">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="__ROOT__/admin">个人资料</a></li>   
+            <li><a href="__ROOT__/admin/Introduction">课程介绍</a></li>
+            <li class="active"><a href="__ROOT__/admin/Teachingplan">电子教案</a></li>             
+            <li><a href="__ROOT__/admin/Excercise">习题库</a></li>   
+            <li><a href="__ROOT__/admin/Onlineask">在线问答</a></li>
+            <li><a href="__ROOT__/admin/More">扩展阅读</a></li>  
+          </ul>
+        </div>
+        
+        <!--左半部分导航结束-->
+
+        <!--右半部分内容开始-->
+        <div class="col-md-8 col-md-offset-1">            
+            <div class="jumbotron">
+              <h2>上传课件包</h2>
+              <h4>swf用来展示，ppt提供给用户下载,以zip文件打包</h4>              
+              <h4>每一章以"c"+章号+后缀命名，如ch1.ppt</h4>
+            </div>
+            <!-- onsubmit="return checkSubmit();" -->
+            <form action="__ROOT__/Admin/Teachingplan/upload" method="post" 
+                enctype="multipart/form-data">
+                <label for="file">Filename:</label>
+                <input type="file" name="swfs" id="file1" /> 
+                <span class="help-block">上传swf包</span>
+                <input type="file" name="ppts" id="file2" /> 
+                <span class="help-block">上传ppt包</span>
+                <button type="submit" class="btn btn-primary" >上传</button>
+            </form>
+
+            <script type="text/javascript">
+                function checkSubmit(){
+                    var swf = $("#file1").val();
+                    var ppt = $("#file2").val();
+                    if(swf==""&&ppt==""){
+                        alert("请至少上传一个文件");
+                        return false;
+                    }
+                    /*if(swf!==""&&swf.substr(-3,3)!="zip")
+                        alert("请上传正确的压缩包文件格式");
+                        return false;
+                    }
+                    if(ppt!==""&&ppt.substr(-3,3)!="zip")
+                        alert("请上传正确的压缩包文件格式");
+                        return false;
+                    }*/
+                    if(swf!=="")
+                        if(swf.substr(-3,3)!=="zip"){
+                            alert("请上传正确的压缩包文件格式");
+                            return false;
+                        }
+                            
+                    if(ppt!=="")
+                        if(ppt.substr(-3,3)!=="zip"){
+                            alert("请上传正确的压缩包文件格式");
+                            return false;
+                        }
+                     
+                }
+            </script>
+        </div>
+    </div>
+</div>
+          

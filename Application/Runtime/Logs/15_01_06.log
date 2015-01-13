@@ -1,0 +1,234 @@
+[ 2015-01-06T22:49:27+08:00 ] 127.0.0.1 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Unknown database 'hm'
+
+[ 2015-01-06T22:50:03+08:00 ] 127.0.0.1 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.005000s ]
+ERR: 1146:Table 'test.introduction' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `introduction`
+SQL: SELECT * FROM `introduction`  [ RunTime:0.001001s ]
+ERR: 1146:Table 'test.introduction' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `introduction` 
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.005000s ]
+ERR: 1146:Table 'test.director' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `director`
+SQL: SELECT * FROM `director`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.director' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `director` 
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-06T22:52:00+08:00 ] 127.0.0.1 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.004001s ]
+ERR: 1146:Table 'test.introduction' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `introduction`
+SQL: SELECT * FROM `introduction`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.introduction' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `introduction` 
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.005000s ]
+ERR: 1146:Table 'test.director' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `director`
+SQL: SELECT * FROM `director`  [ RunTime:0.001000s ]
+ERR: 1146:Table 'test.director' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `director` 
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-06T22:52:02+08:00 ] 127.0.0.1 /course/index.php/Home/More
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `extend` [ RunTime:0.002000s ]
+ERR: 1146:Table 'test.extend' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `extend`
+SQL: SELECT * FROM `extend` WHERE ( type='t' )  [ RunTime:0.031002s ]
+ERR: 1146:Table 'test.extend' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `extend` WHERE ( type='t' ) 
+SQL: SELECT * FROM `extend` WHERE ( type='o' )  [ RunTime:0.000000s ]
+ERR: 1146:Table 'test.extend' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `extend` WHERE ( type='o' ) 
+SQL: SELECT * FROM `extend` WHERE ( type='r' )  [ RunTime:0.000000s ]
+ERR: 1146:Table 'test.extend' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `extend` WHERE ( type='r' ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\course\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 129 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\course\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 138 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\course\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-06T22:52:06+08:00 ] 127.0.0.1 /course/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-01-06T22:52:09+08:00 ] 127.0.0.1 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.005000s ]
+ERR: 1146:Table 'test.introduction' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `introduction`
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'test.introduction' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `introduction` 
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.004000s ]
+ERR: 1146:Table 'test.director' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `director`
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+ERR: 1146:Table 'test.director' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `director` 
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-06T22:52:30+08:00 ] 127.0.0.1 /course/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-06T23:01:26+08:00 ] 127.0.0.1 /course/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-06T23:01:31+08:00 ] 127.0.0.1 /course/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

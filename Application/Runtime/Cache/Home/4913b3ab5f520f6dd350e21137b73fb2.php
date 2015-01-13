@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit(); $excercise = M("excercise"); echo $excercise->where("id=10")->getField("question"); ?>

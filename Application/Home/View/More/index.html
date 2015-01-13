@@ -1,0 +1,98 @@
+<include file="Public:menu"/>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#mymenu .active").removeClass("active");
+		$("#mymenu li:eq(12)").addClass("active");
+	});
+</script>
+<?php 
+	$Extend = M("Extend");
+	$t = $Extend->where("type='t'")->select();
+	$o = $Extend->where("type='o'")->select();
+	$r = $Extend->where("type='r'")->select();
+?>
+<div class="container">
+    <div class="row">
+      <div class="col-md-2 col-md-offset-1" style="margin-top: 50px">
+          <ul class="nav nav-pills nav-stacked">          
+          	<li class="active"><a href="javascript:;" onclick="switchdata('resource');">课外资料&nbsp;&nbsp;<i class='glyphicon  glyphicon-chevron-right'></i></a></li>                
+          	<li><a href="javascript:;" onclick="switchdata('tool');">相关工具&nbsp;&nbsp;<i class='glyphicon  glyphicon-chevron-right'></i></a></li>                
+          	<li><a href="javascript:;" onclick="switchdata('research');">研究成果&nbsp;&nbsp;<i class='glyphicon  glyphicon-chevron-right'></i></a></li>                
+          </ul>
+      </div>
+      <script type="text/javascript">
+      		function switchdata(mid){
+      			switch(mid)
+      			{
+      				case 'resource':
+      					$(".row .active").removeClass('active');
+      					$(".row li:eq(0)").addClass('active');
+      					$("#resource").show();
+      					$("#tool").hide();
+      					$("research").hide();
+      					break;
+      				case 'tool':
+      					$(".row .active").removeClass('active');
+      					$(".row li:eq(1)").addClass('active');
+      					$("#resource").hide();
+      					$("#tool").show();
+      					$("#research").hide();
+      					break;
+      				case 'research':
+      					$(".row .active").removeClass('active');
+      					$(".row li:eq(2)").addClass('active');
+      					$("#resource").hide();
+      					$("#tool").hide();
+      					$("#research").show();
+      					break;
+      			}
+      		}
+      </script>
+      <div class="col-md-7 col-md-offset-1">
+          <table class="table" id="resource" style="margin-top: 50px">
+          		<tr>
+          			<td width="30%">标题</td>
+          			<td width="70%">链接</td>          			
+          		</tr>
+          		<?php
+					foreach ($t as $key => $value) {
+						echo "<tr>";
+						echo "<td>".$value['title']."</td>";						
+						echo "<td><a href='".$value['site']."'>".$value['site']."</td>";
+						echo "</tr>";
+					}
+				 ?>
+          </table>
+
+          <table class="table" id="tool" style="margin-top: 50px;display: none">
+          		<tr>
+          			<td width="30%">标题</td>
+          			<td width="70%">链接</td>          			
+          		</tr>
+          		<?php
+					foreach ($o as $key => $value) {
+						echo "<tr>";
+						echo "<td>".$value['title']."</td>";						
+						echo "<td><a href='".$value['site']."'>".$value['site']."</td>";
+						echo "</tr>";
+					}
+				 ?>
+          </table>
+
+          <table class="table" id="research" style="margin-top: 50px;display: none">
+          		<tr>
+          			<td width="30%">标题</td>
+          			<td width="70%">链接</td>          			
+          		</tr>
+          		<?php
+					foreach ($r as $key => $value) {
+						echo "<tr>";
+						echo "<td>".$value['title']."</td>";						
+						echo "<td><a href='".$value['site']."'>".$value['site']."</td>";
+						echo "</tr>";
+					}
+				 ?>
+          </table>
+      </div>
+    </div>
+</div>

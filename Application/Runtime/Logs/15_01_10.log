@@ -1,0 +1,2801 @@
+[ 2015-01-10T11:43:31+08:00 ] 192.168.1.3 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.047003s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.030002s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.037002s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.035002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.347020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.349020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-10T11:43:53+08:00 ] 192.168.1.3 /course/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-10T11:44:08+08:00 ] 192.168.1.3 /course/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.019001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-10T11:44:17+08:00 ] 192.168.1.3 /course/Admin/Index/updateProfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: UPDATE `user` SET `username`='admin',`email`='155372999@qq.com',`sex`='男',`userid`=1 WHERE ( userid=1 ) [ RunTime:0.098006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-10T11:44:18+08:00 ] 192.168.1.3 /course/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T11:44:21+08:00 ] 192.168.1.3 /course/admin/Introduction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.046801s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 237 行.
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T11:44:38+08:00 ] 192.168.1.3 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T11:45:15+08:00 ] 192.168.1.3 /course/admin/Teachingplan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\53675df9b4df506e1d66433c319c822e.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` ORDER BY id  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T11:45:17+08:00 ] 192.168.1.3 /course/admin/Introduction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 237 行.
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:23:21+08:00 ] 127.0.0.1 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.010000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.080000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.030000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.020000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.030000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.410001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.410001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:31:41+08:00 ] 127.0.0.1 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:31:48+08:00 ] 127.0.0.1 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.002500s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-01-10T15:32:03+08:00 ] 127.0.0.1 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:36:56+08:00 ] 127.0.0.1 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-10T15:40:07+08:00 ] 192.168.1.3 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:40:09+08:00 ] 192.168.1.3 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:41:16+08:00 ] 192.168.1.3 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:41:40+08:00 ] 192.168.1.3 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:42:05+08:00 ] 192.168.1.3 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:42:46+08:00 ] 192.168.1.3 /course/index.php/Home/Introduction/outline
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\5c0f7f0ea280e00c8541139fa87469db.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:42:54+08:00 ] 192.168.1.3 /course/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:43:19+08:00 ] 192.168.1.3 /course/Admin/index?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.031200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:47:48+08:00 ] 192.168.1.3 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.031200s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:48:23+08:00 ] 192.168.1.3 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:48:27+08:00 ] 192.168.1.3 /course/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:48:39+08:00 ] 192.168.1.3 /course/Admin/index?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:48:57+08:00 ] 192.168.1.3 /course/Admin/Index/updateProfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: UPDATE `user` SET `username`='admin',`email`='1159982594@qq.com',`sex`='女',`userid`=1 WHERE ( userid=1 ) [ RunTime:0.124801s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:48:58+08:00 ] 192.168.1.3 /course/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:49:00+08:00 ] 192.168.1.3 /course/admin/Introduction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.046800s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 237 行.
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:49:41+08:00 ] 192.168.1.3 /course/Admin/Introduction/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: UPDATE `introduction` SET `outline`='<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\r\n\r\n<h1><strong>&nbsp;<img alt=\"\" src=\"http://www1.gdufs.edu.cn/jwc/bestcourse/kecheng/2/images/pot_3.gif\" style=\"height:16px; width:16px\" />&nbsp;&nbsp;&nbsp;课程简介</strong></h1>\r\n\r\n<p><strong><a name=\"C1\">课程发展的主要历史沿革</a></strong></p>\r\n\r\n<p>&nbsp; &nbsp;&nbsp;从1978年开始，广州外国语学院英语系在全国率先为本科学生开设《英语口译》课，并编辑出版了专门的口译教材。&nbsp;</p>\r\n\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp;1993至1997年，在英国文化委员会的资助下，英语系与欧盟翻译培训基地英国西敏斯特大学展开合作，先后选派仲伟合等三名教师前往学习并获得口笔译学硕士学位。同时本科三四年级阶段开始开设口笔译系列课程，进行高级翻译专业方向试运行。期间接待英方专家Prof. Jack Lonergan和 Prof. Mark Hilton前来指导，在课程设置、教材选择等方面得到高度肯定。&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;1997年，广东外语外贸大学英文学院（原广州外国语学院英语系）正式成立翻译系，确立本科高级翻译专业方向，经过数年实践和探索，结合口译研究成果，口译课程体系基本成形。该体系以能力培养为核心，明确了培养专业口译的目标。实际上，口译课程体系概念的提出，正是根据口译培养的基本规律，认识到口译能力培养需要多管齐下。例如，在口译技巧分解基础上，以技巧为线索开设《连传技巧》课，进行短时记忆训练、口译笔记训练、语篇分析训练、语篇重组训练等；同时，针对口译接触的常见领域，以专题为线索开设《政治外交口译》和《专题口译》，覆盖了政治、外交、经济发展、教育、文化、体育等众多领域。特别值得一提的是，仲伟合教授率先在本科阶段开设了《同声传译》课程，大大丰富了口译课程体系，不失为闪光的创新点。学院有了一支专业口译教师队伍，除了前面提及的教师以外，还包括资深口译教师王桂珍教授，积极探索口译电子教学的许罗迈副教授，年轻的口译实践与教学力量王丹和张丽华老师等。他们积极进行口译与口译教学研究，编写口译教材和口译词典。&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;2003-2004年，《英语口译》先后被被评为广东外语外贸大学精品课程和广东省精品课程。&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;同时，在我校国际商务英语学院也开设了&quot;英语口译&quot;、&quot;商务口译&quot;课程，依托我校口译教研的雄厚实力，以赵军峰、詹成为首的教学团队特别在专门用途英语口译方面进行了有效的教学探索和人才培养。&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;2005年，由仲伟合主持，冯之林、王丹、张丽华共同完成的《口译课程体系改革与建设》获广东省优秀教学成果一等奖。&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;2005年5月，广东外语外贸大学整合所有的翻译师资和资源，成立高级翻译学院，为口译课程体系的发展提供了又一个契机。随着翻译学二级学科点的建成，翻译学被教育部批准成为本科新专业。作为课程体系的基础，高翻学院在二年级开始引入《基础口译课程》。在原有的两条主线基础之上，增加了语言对比角度，最新开设的《英汉汉英口译》既从口译的角度进一步认识源语与目的语的异同。另外，口译实践性质进一步突出，围绕三条主线的主干课程开设《模拟国际会议》、《口译工作坊》、《口译观摩与赏析》等辅助课程。由仲伟合教授主持编写的三种口译教程分别属于基础、中级和高级三个不同的层次。随着口译课程建设的成熟和口译系列教材的面世，我校的口译教学团队在原有的口译教学基础上，形成了完整的口译教学体系。&nbsp;<br />\r\n<img src=\"http://www1.gdufs.edu.cn/jwc/bestcourse/kecheng/2/images/kechengtixi.gif\" /></p>\r\n\r\n<p><strong><a name=\"C2\">教学内容</a></strong>&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;本口译课程体系包含《连续传译》、《专题口译》、《英汉汉英口译》、《同声传译》等主干课程以及《口译工作坊》、《模拟国际会议》、《口译观摩与欣赏》等实践性课程。课程的安排根据难度循序渐进，练习英汉、汉英双向翻译，兼顾连续传译和同声传译。所有课程在英语专业高年级阶段为经挑选学生所组成的高级翻译班开设，分布在大学第五、六、七、八学期。&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;本课程体系从总体上帮助学生掌握常见题材的汉英及英汉连续传译的技巧并介绍同声传译的基本技能。不同课程各有侧重点。《连续传译》为技巧型课程，将连传技巧分解为短时记忆、记笔记、源语理解、语篇归纳与整理、数字转换、公共演说以及应对技巧等，第五学期开设；《英汉汉英口译》从口译角度进一步进行双语对比研究和学习，提高语言文化敏感度，第六学期开设；第六学期同时开设《专题口译》，内容型课程，涉及专题包括教育、人口、环境保护、旅游、经济发展、金融、高科技、中国文化、少数民族以及各种场合的演说辞等，侧重英汉口译。《专题口译》在第七学期继续开设，扩大专题覆盖范围，拓展深度。第七学期同时引入《同声传译》，技巧型课程，通过影子练习、源语复述、目的语复述等形式培养一心二用、顺句驱动、以中文听英文、视译等基本同传意识和能力。另外，第八学期开设辅助课程《模拟国际会议翻译》，实践性教学课程，作为对《同声传译》的巩固和延续，引入会议译前准备、应对策略以及译员分工与合作等内容。<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;可以说该项目对过去《口译》课单一的教学模式、与实际脱节的教学内容和纸上谈兵的教学方法进行了全方位的教学改革。改革的出发点是教学理念的彻底变化，从认识上严格区分旨在<strong>教学翻译</strong>与<strong>翻译教学</strong>，强调口译职业化和口译培训的专业化。</p>\r\n\r\n<p><strong><a name=\"C3\">教学方法与手段</a></strong>&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&quot;专业口译课程体系改革与建设&quot;为广东外语外贸大学近年来坚持进行教改项目，旨在探讨高级职业口译人才培养方法，为英语专业人才探索新的出路的成果。外语院校或综合院校英语系不可避免的突出问题是&quot;英语专业毕业生就一定能担任口译吗？&quot;或&quot;会说英语就能做口译吗？&quot;。&quot;口译课程体系&quot;的建设是广外大对这个问题的反思和回答。一般大学只在高年级开设一门叫《口译》的课程，实际侧重英语口语，与合格口译人员所需要的能力与知识毫不相关。&quot;口译课程体系&quot;充分认识和考虑口译实践的需要，将着眼点放在除语言能力之外的口译所涉及的其他素质和技能，如大容量的短时记忆能力、笔记能力、语篇归纳能力、逻辑思维以及文化敏感和百科知识等，开设了分别以技能和专题内容为基础的一系列课程，形成了较为完善的&quot;口译课程体系&quot;。从而真正实现了培养专业口译人员的&quot;翻译教学&quot;&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;该体系包含《连续传译》、《专题口译》、《英汉汉英口译》、《同声传译》等主干课程以及《口译工作坊》《模拟国际会议》《口译观摩与欣赏》等实践性课程。课程的安排根据难度循序渐进，练习英汉、汉英双向翻译，兼顾连续传译和同声传译。所有课程在英语专业高年级阶段为经挑选学生所组成的高级翻译班开设，分布在大学第五、六、七、八学期。可以说该项目对过去《口译》课单一的教学模式、与实际脱节的教学内容和纸上谈兵的教学方法进行了全方位的教学改革。改革的出发点是教学理念的彻底变化，从认识上严格区分旨在提高语言水平的教学翻译与培养专业口译人员的翻译教学，强调口译职业化和口译培训的专业化。随之而来的是教材、教学方法、教学环境以及教师各方面一系列的变化。经过数年的建设，取得了显著的成果，现将主要特点概括如下：&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;<strong>&nbsp;1.课程立体化</strong>，口译技巧型课程与口译专题型课程相结合&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;<strong>&nbsp;2.内容系统化</strong>，专业知识的传授与专业词汇的积累相结合<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>3.练习真实化</strong>，仿真的口译活动与真实的口译实践相结合&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>4.学生中心化</strong>，学生的口译操练与教师的口译示范相结合&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>5.教材多元化</strong>，口译的文字材料与音像视频网络材料相结合&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>6.技巧全面化</strong>，连续传译的训练与同声传译的训练相结合&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>7.教师全能化</strong>，口译训练、口译实践与口译教学研究相结合&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>8.目标职业化</strong>，教学翻译与翻译教学相区别，培养真正意义上的职业口译人员。<br />\r\n<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;以上&quot;八化&quot;具体充分体现在教学方法和教学内容等方面。根据教学组织线索，口译课程体系共有四个类型的课程，分别为技巧型、内容型或专题型、语言对比型以及辅助实践课程。&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;无论技巧型还是内容型课程，学生练习是课堂教学的重要组成部分，但在教学中我们发现，机械的英汉互译枯燥而单调,无法达到教学目的。为避免这种情况的出现，我们在实际摸索中总结出以下一些有效的教学方法:&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>1.讲解示范</strong>：在学生操练之前，老师结合自身的口译经验，详细说明口译涉及的各种技巧，适用于技巧教学；<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>2.三角情景练习</strong>：教师将学生分为三人组,设计跨文化交流场合，指定学生分别扮演不同的角色,布置会谈主要<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;内容、交代需要完成的交际任务。在此基础上，学生可充分发挥想象力充实交流活动，在有趣真实的交际活动<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中潜移默化锻炼口译能力和翻译意识；<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>3.配对演练</strong>：两人一小组使用同一篇材料进行翻译练习,互相指正学习；<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>4.小组讨论：</strong>四五人一组详细讨论一篇材料的翻译，提高对原文的准确理解,培养翻译中得到多种译文的灵活意<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;识；<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>5.会议模拟：</strong>设计一场全班参加的某专题中外记者招待会或国际会议,部分学生提问/做报告,部分答问,部分翻<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;译.条件允许时邀请外教参加会议，提高真实性，更有助于培养解决实际工作中可能碰到问题的能力；<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>6.实践观摩：</strong>在多媒体教室,使用录像机,光碟机播放国际会议录像光碟等。国际会议厅有全套同声传译设备，<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;允许学生实地操练。一年一度的口译大赛，向全校及社会开放，提供面对观众和大型场面的锻炼机会。</p>\r\n' WHERE ( id=1 ) [ RunTime:0.109200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-01-10T15:49:42+08:00 ] 192.168.1.3 /course/admin/Introduction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 237 行.
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-01-10T15:49:53+08:00 ] 192.168.1.3 /course/Admin/Introduction/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: UPDATE `introduction` SET `outline`='<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\r\n\r\n<h1><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt=\"\" src=\"http://www1.gdufs.edu.cn/jwc/bestcourse/kecheng/2/images/pot_3.gif\" style=\"height:16px; width:16px\" />&nbsp;&nbsp;&nbsp;课程简介</strong></h1>\r\n\r\n<p><strong><a name=\"C1\">课程发展的主要历史沿革</a></strong></p>\r\n\r\n<p>&nbsp; &nbsp;&nbsp;从1978年开始，广州外国语学院英语系在全国率先为本科学生开设《英语口译》课，并编辑出版了专门的口译教材。&nbsp;</p>\r\n\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp;1993至1997年，在英国文化委员会的资助下，英语系与欧盟翻译培训基地英国西敏斯特大学展开合作，先后选派仲伟合等三名教师前往学习并获得口笔译学硕士学位。同时本科三四年级阶段开始开设口笔译系列课程，进行高级翻译专业方向试运行。期间接待英方专家Prof. Jack Lonergan和 Prof. Mark Hilton前来指导，在课程设置、教材选择等方面得到高度肯定。&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;1997年，广东外语外贸大学英文学院（原广州外国语学院英语系）正式成立翻译系，确立本科高级翻译专业方向，经过数年实践和探索，结合口译研究成果，口译课程体系基本成形。该体系以能力培养为核心，明确了培养专业口译的目标。实际上，口译课程体系概念的提出，正是根据口译培养的基本规律，认识到口译能力培养需要多管齐下。例如，在口译技巧分解基础上，以技巧为线索开设《连传技巧》课，进行短时记忆训练、口译笔记训练、语篇分析训练、语篇重组训练等；同时，针对口译接触的常见领域，以专题为线索开设《政治外交口译》和《专题口译》，覆盖了政治、外交、经济发展、教育、文化、体育等众多领域。特别值得一提的是，仲伟合教授率先在本科阶段开设了《同声传译》课程，大大丰富了口译课程体系，不失为闪光的创新点。学院有了一支专业口译教师队伍，除了前面提及的教师以外，还包括资深口译教师王桂珍教授，积极探索口译电子教学的许罗迈副教授，年轻的口译实践与教学力量王丹和张丽华老师等。他们积极进行口译与口译教学研究，编写口译教材和口译词典。&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;2003-2004年，《英语口译》先后被被评为广东外语外贸大学精品课程和广东省精品课程。&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;同时，在我校国际商务英语学院也开设了&quot;英语口译&quot;、&quot;商务口译&quot;课程，依托我校口译教研的雄厚实力，以赵军峰、詹成为首的教学团队特别在专门用途英语口译方面进行了有效的教学探索和人才培养。&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;2005年，由仲伟合主持，冯之林、王丹、张丽华共同完成的《口译课程体系改革与建设》获广东省优秀教学成果一等奖。&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;2005年5月，广东外语外贸大学整合所有的翻译师资和资源，成立高级翻译学院，为口译课程体系的发展提供了又一个契机。随着翻译学二级学科点的建成，翻译学被教育部批准成为本科新专业。作为课程体系的基础，高翻学院在二年级开始引入《基础口译课程》。在原有的两条主线基础之上，增加了语言对比角度，最新开设的《英汉汉英口译》既从口译的角度进一步认识源语与目的语的异同。另外，口译实践性质进一步突出，围绕三条主线的主干课程开设《模拟国际会议》、《口译工作坊》、《口译观摩与赏析》等辅助课程。由仲伟合教授主持编写的三种口译教程分别属于基础、中级和高级三个不同的层次。随着口译课程建设的成熟和口译系列教材的面世，我校的口译教学团队在原有的口译教学基础上，形成了完整的口译教学体系。&nbsp;<br />\r\n<img src=\"http://www1.gdufs.edu.cn/jwc/bestcourse/kecheng/2/images/kechengtixi.gif\" /></p>\r\n\r\n<p><strong><a name=\"C2\">教学内容</a></strong>&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;本口译课程体系包含《连续传译》、《专题口译》、《英汉汉英口译》、《同声传译》等主干课程以及《口译工作坊》、《模拟国际会议》、《口译观摩与欣赏》等实践性课程。课程的安排根据难度循序渐进，练习英汉、汉英双向翻译，兼顾连续传译和同声传译。所有课程在英语专业高年级阶段为经挑选学生所组成的高级翻译班开设，分布在大学第五、六、七、八学期。&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;本课程体系从总体上帮助学生掌握常见题材的汉英及英汉连续传译的技巧并介绍同声传译的基本技能。不同课程各有侧重点。《连续传译》为技巧型课程，将连传技巧分解为短时记忆、记笔记、源语理解、语篇归纳与整理、数字转换、公共演说以及应对技巧等，第五学期开设；《英汉汉英口译》从口译角度进一步进行双语对比研究和学习，提高语言文化敏感度，第六学期开设；第六学期同时开设《专题口译》，内容型课程，涉及专题包括教育、人口、环境保护、旅游、经济发展、金融、高科技、中国文化、少数民族以及各种场合的演说辞等，侧重英汉口译。《专题口译》在第七学期继续开设，扩大专题覆盖范围，拓展深度。第七学期同时引入《同声传译》，技巧型课程，通过影子练习、源语复述、目的语复述等形式培养一心二用、顺句驱动、以中文听英文、视译等基本同传意识和能力。另外，第八学期开设辅助课程《模拟国际会议翻译》，实践性教学课程，作为对《同声传译》的巩固和延续，引入会议译前准备、应对策略以及译员分工与合作等内容。<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;可以说该项目对过去《口译》课单一的教学模式、与实际脱节的教学内容和纸上谈兵的教学方法进行了全方位的教学改革。改革的出发点是教学理念的彻底变化，从认识上严格区分旨在<strong>教学翻译</strong>与<strong>翻译教学</strong>，强调口译职业化和口译培训的专业化。</p>\r\n\r\n<p><strong><a name=\"C3\">教学方法与手段</a></strong>&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&quot;专业口译课程体系改革与建设&quot;为广东外语外贸大学近年来坚持进行教改项目，旨在探讨高级职业口译人才培养方法，为英语专业人才探索新的出路的成果。外语院校或综合院校英语系不可避免的突出问题是&quot;英语专业毕业生就一定能担任口译吗？&quot;或&quot;会说英语就能做口译吗？&quot;。&quot;口译课程体系&quot;的建设是广外大对这个问题的反思和回答。一般大学只在高年级开设一门叫《口译》的课程，实际侧重英语口语，与合格口译人员所需要的能力与知识毫不相关。&quot;口译课程体系&quot;充分认识和考虑口译实践的需要，将着眼点放在除语言能力之外的口译所涉及的其他素质和技能，如大容量的短时记忆能力、笔记能力、语篇归纳能力、逻辑思维以及文化敏感和百科知识等，开设了分别以技能和专题内容为基础的一系列课程，形成了较为完善的&quot;口译课程体系&quot;。从而真正实现了培养专业口译人员的&quot;翻译教学&quot;&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;该体系包含《连续传译》、《专题口译》、《英汉汉英口译》、《同声传译》等主干课程以及《口译工作坊》《模拟国际会议》《口译观摩与欣赏》等实践性课程。课程的安排根据难度循序渐进，练习英汉、汉英双向翻译，兼顾连续传译和同声传译。所有课程在英语专业高年级阶段为经挑选学生所组成的高级翻译班开设，分布在大学第五、六、七、八学期。可以说该项目对过去《口译》课单一的教学模式、与实际脱节的教学内容和纸上谈兵的教学方法进行了全方位的教学改革。改革的出发点是教学理念的彻底变化，从认识上严格区分旨在提高语言水平的教学翻译与培养专业口译人员的翻译教学，强调口译职业化和口译培训的专业化。随之而来的是教材、教学方法、教学环境以及教师各方面一系列的变化。经过数年的建设，取得了显著的成果，现将主要特点概括如下：&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;<strong>&nbsp;1.课程立体化</strong>，口译技巧型课程与口译专题型课程相结合&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;<strong>&nbsp;2.内容系统化</strong>，专业知识的传授与专业词汇的积累相结合<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>3.练习真实化</strong>，仿真的口译活动与真实的口译实践相结合&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>4.学生中心化</strong>，学生的口译操练与教师的口译示范相结合&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>5.教材多元化</strong>，口译的文字材料与音像视频网络材料相结合&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>6.技巧全面化</strong>，连续传译的训练与同声传译的训练相结合&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>7.教师全能化</strong>，口译训练、口译实践与口译教学研究相结合&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>8.目标职业化</strong>，教学翻译与翻译教学相区别，培养真正意义上的职业口译人员。<br />\r\n<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;以上&quot;八化&quot;具体充分体现在教学方法和教学内容等方面。根据教学组织线索，口译课程体系共有四个类型的课程，分别为技巧型、内容型或专题型、语言对比型以及辅助实践课程。&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;无论技巧型还是内容型课程，学生练习是课堂教学的重要组成部分，但在教学中我们发现，机械的英汉互译枯燥而单调,无法达到教学目的。为避免这种情况的出现，我们在实际摸索中总结出以下一些有效的教学方法:&nbsp;<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>1.讲解示范</strong>：在学生操练之前，老师结合自身的口译经验，详细说明口译涉及的各种技巧，适用于技巧教学；<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>2.三角情景练习</strong>：教师将学生分为三人组,设计跨文化交流场合，指定学生分别扮演不同的角色,布置会谈主要<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;内容、交代需要完成的交际任务。在此基础上，学生可充分发挥想象力充实交流活动，在有趣真实的交际活动<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中潜移默化锻炼口译能力和翻译意识；<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>3.配对演练</strong>：两人一小组使用同一篇材料进行翻译练习,互相指正学习；<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>4.小组讨论：</strong>四五人一组详细讨论一篇材料的翻译，提高对原文的准确理解,培养翻译中得到多种译文的灵活意<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;识；<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>5.会议模拟：</strong>设计一场全班参加的某专题中外记者招待会或国际会议,部分学生提问/做报告,部分答问,部分翻<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;译.条件允许时邀请外教参加会议，提高真实性，更有助于培养解决实际工作中可能碰到问题的能力；<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>6.实践观摩：</strong>在多媒体教室,使用录像机,光碟机播放国际会议录像光碟等。国际会议厅有全套同声传译设备，<br />\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;允许学生实地操练。一年一度的口译大赛，向全校及社会开放，提供面对观众和大型场面的锻炼机会。</p>\r\n' WHERE ( id=1 ) [ RunTime:0.031200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:49:54+08:00 ] 192.168.1.3 /course/admin/Introduction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 237 行.
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:51:18+08:00 ] 192.168.1.3 /course/Admin/Introduction/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: UPDATE `introduction` SET `calendar`='<p><img src=\"http://www1.gdufs.edu.cn/jwc/bestcourse/kecheng/2/images/kechengtixi.gif\" /></p>\r\n' WHERE ( id=1 ) [ RunTime:0.046800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:51:20+08:00 ] 192.168.1.3 /course/admin/Introduction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 237 行.
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:51:42+08:00 ] 192.168.1.3 /course/Admin/Introduction/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: UPDATE `introduction` SET `profile`='1997年，广东外语外贸大学英文学院（原广州外国语学院英语系）正式成立翻译系，确立本科高级翻译专业方向，经过数年实践和探索，结合口译研究成果，口译课程体系基本成形。该体系以能力培养为核心，明确了培养专业口译的目标。实际上，口译课程体系概念的提出，正是根据口译培养的基本规律，认识到口译能力培养需要多管齐下。例如，在口译技巧分解基础上，以技巧为线索开设《连传技巧》课，进行短时记忆训练、口译笔记训练、语篇分析训练、语篇重组训练等；同时，针对口译接触的常见领域，以专题为线索开设《政治外交口译》和《专题口译》，覆盖了政治、外交、经济发展、教育、文化、体育等众多领域。特别值得一提的是，仲伟合教授率先在本科阶段开设了《同声传译》课程，大大丰富了口译课程体系，不失为闪光的创新点。学院有了一支专业口译教师队伍，除了前面提及的教师以外，还包括资深口译教师王桂珍教授，积极探索口译电子教学的许罗迈副教授，年轻的口译实践与教学力量王丹和张丽华老师等。他们积极进行口译与口译教学研究，编写口译教材和口译词典。' WHERE ( id=1 ) [ RunTime:0.062400s ]
+
+[ 2015-01-10T15:52:05+08:00 ] 192.168.1.3 /course/Admin/Introduction/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: UPDATE `introduction` SET `characteristic`='主要特色概括如下： \n     1.课程立体化，口译技巧型课程与口译专题型课程相结合 \n     2.内容系统化，专业知识的传授与专业词汇的积累相结合\n     3.练习真实化，仿真的口译活动与真实的口译实践相结合 \n     4.学生中心化，学生的口译操练与教师的口译示范相结合 \n     5.教材多元化，口译的文字材料与音像视频网络材料相结合 \n     6.技巧全面化，连续传译的训练与同声传译的训练相结合 \n     7.教师全能化，口译训练、口译实践与口译教学研究相结合 \n     8.目标职业化，教学翻译与翻译教学相区别，培养真正意义上的职业口译人员。',`calendar`='主要特色概括如下： \n     1.课程立体化，口译技巧型课程与口译专题型课程相结合 \n     2.内容系统化，专业知识的传授与专业词汇的积累相结合\n     3.练习真实化，仿真的口译活动与真实的口译实践相结合 \n     4.学生中心化，学生的口译操练与教师的口译示范相结合 \n     5.教材多元化，口译的文字材料与音像视频网络材料相结合 \n     6.技巧全面化，连续传译的训练与同声传译的训练相结合 \n     7.教师全能化，口译训练、口译实践与口译教学研究相结合 \n     8.目标职业化，教学翻译与翻译教学相区别，培养真正意义上的职业口译人员。' WHERE ( id=1 ) [ RunTime:0.046800s ]
+
+[ 2015-01-10T15:52:23+08:00 ] 192.168.1.3 /course/admin/Introduction/saveTeam?name=%E6%9D%8E%E6%89%BF&charge=%E6%98%AF&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: UPDATE `team` SET `name`='李承',`charge`='是' WHERE ( id="2" ) [ RunTime:0.078000s ]
+
+[ 2015-01-10T15:52:33+08:00 ] 192.168.1.3 /course/admin/Introduction/saveNewTeam?name=%E4%BC%8D%E5%BF%97%E4%BC%9F&charge=%E5%90%A6&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: INSERT INTO `team` (`name`,`charge`) VALUES ('伍志伟','否') [ RunTime:0.078000s ]
+
+[ 2015-01-10T15:52:44+08:00 ] 192.168.1.3 /course/admin/Introduction/saveNewTeam?name=%E5%BC%A0%E5%87%8C&charge=%E5%90%A6&id=N
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: INSERT INTO `team` (`name`,`charge`) VALUES ('张凌','否') [ RunTime:0.093600s ]
+
+[ 2015-01-10T15:52:58+08:00 ] 192.168.1.3 /course/admin/Introduction/saveNewTeam?name=%E5%BC%A0%E5%87%8C&charge=%E5%90%A6&id=N
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: INSERT INTO `team` (`name`,`charge`) VALUES ('张凌','否') [ RunTime:0.078000s ]
+
+[ 2015-01-10T15:56:33+08:00 ] 192.168.1.3 /course/admin/Introduction/saveDirector
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: UPDATE `director` SET `name`='仲伟合',`profile`='<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:680px\">\r\n	<tbody>\r\n		<tr>\r\n			<td colspan=\"2\"><strong>个人简介</strong></td>\r\n		</tr>\r\n		<tr>\r\n			<td colspan=\"2\">\r\n			<p><strong>仲伟合简介</strong></p>\r\n\r\n			<p>仲伟合，1966年出生，江苏赣榆人，现任广东外语外贸大学校长、党委副书记、教授、博士生导师。曾任广东外语外贸大学英语语言文化学院副院长、院长，高级翻译学院院长、教授等职务。仲伟合教授的主要研究方向是翻译学研究、口译理论与口译教学研究。上世纪九十年代初涉足英汉口笔译实践、教学与理论研究工作。<br />\r\n			他长期致力于翻译学科建设，由其首倡并积极推动的翻译本科专业学位于2006年设立，翻译硕士专业学位（MTI）于2007 年设立，填补了我国在这一领域的空白。他本人分别担任全国翻译专业研究生教育指导委员会副主任和全国高等学校翻译专业教学协助组组长，在探索建立完善的翻译专业教育体系方面发挥了重要的导向作用。他长期致力于口译人才培养教育和研究工作并发挥重要的引领作用，对提高我国口译教育和研究水平做出了重要贡献。</p>\r\n			</td>\r\n		</tr>\r\n	</tbody>\r\n</table>\r\n' WHERE ( id=1 ) [ RunTime:0.046800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:56:34+08:00 ] 192.168.1.3 /course/admin/Introduction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 237 行.
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:56:37+08:00 ] 192.168.1.3 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:56:44+08:00 ] 192.168.1.3 /course/index.php/Home/Introduction/outline
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\5c0f7f0ea280e00c8541139fa87469db.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:56:51+08:00 ] 192.168.1.3 /course/index.php/Home/Introduction/calendar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\4ae7a71b42daebfff1a7b9b487cdfb94.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:56:54+08:00 ] 192.168.1.3 /course/index.php/Home/Introduction/calendar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\4ae7a71b42daebfff1a7b9b487cdfb94.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:56:57+08:00 ] 192.168.1.3 /course/index.php/Home/Introduction/team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\17576ba2f2f6c2d507b91ddf4d7c1878.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.015600s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:57:12+08:00 ] 192.168.1.3 /course/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:57:13+08:00 ] 192.168.1.3 /course/Admin/index?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:57:16+08:00 ] 192.168.1.3 /course/admin/Introduction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 237 行.
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:57:29+08:00 ] 192.168.1.3 /course/Admin/Introduction/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.015600s ]
+SQL: UPDATE `introduction` SET `calendar`='<p><img src=\"http://www1.gdufs.edu.cn/jwc/bestcourse/kecheng/2/images/kechengtixi.gif\" /></p>\r\n' WHERE ( id=1 ) [ RunTime:0.046800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-01-10T15:57:30+08:00 ] 192.168.1.3 /course/admin/Introduction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015600s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 237 行.
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:57:52+08:00 ] 192.168.1.3 /course/admin/Introduction/saveTeam?name=%E5%BD%AD%E7%8F%BA&charge=%E6%98%AF&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: UPDATE `team` SET `name`='彭珺',`charge`='是' WHERE ( id="5" ) [ RunTime:0.062400s ]
+
+[ 2015-01-10T15:58:28+08:00 ] 192.168.1.3 /course/admin/Introduction/saveDirector
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: UPDATE `director` SET `name`='仲伟合',`profile`='<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:680px\">\r\n	<tbody>\r\n		<tr>\r\n			<td colspan=\"2\"><strong>个人简介</strong></td>\r\n		</tr>\r\n		<tr>\r\n			<td colspan=\"2\">\r\n			<p><strong>仲伟合简介</strong></p>\r\n\r\n			<p>仲伟合，1966年出生，江苏赣榆人，现任广东外语外贸大学校长、党委副书记、教授、博士生导师。曾任广东外语外贸大学英语语言文化学院副院长、院长，高级翻译学院院长、教授等职务。仲伟合教授的主要研究方向是翻译学研究、口译理论与口译教学研究。上世纪九十年代初涉足英汉口笔译实践、教学与理论研究工作。<br />\r\n			他长期致力于翻译学科建设，由其首倡并积极推动的翻译本科专业学位于2006年设立，翻译硕士专业学位（MTI）于2007 年设立，填补了我国在这一领域的空白。他本人分别担任全国翻译专业研究生教育指导委员会副主任和全国高等学校翻译专业教学协助组组长，在探索建立完善的翻译专业教育体系方面发挥了重要的导向作用。他长期致力于口译人才培养教育和研究工作并发挥重要的引领作用，对提高我国口译教育和研究水平做出了重要贡献。</p>\r\n			</td>\r\n		</tr>\r\n	</tbody>\r\n</table>\r\n' WHERE ( id=1 ) [ RunTime:0.078000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:58:29+08:00 ] 192.168.1.3 /course/admin/Introduction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 237 行.
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:58:31+08:00 ] 192.168.1.3 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:58:34+08:00 ] 192.168.1.3 /course/index.php/Home/Introduction/outline
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\5c0f7f0ea280e00c8541139fa87469db.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:58:36+08:00 ] 192.168.1.3 /course/index.php/Home/Introduction/calendar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\4ae7a71b42daebfff1a7b9b487cdfb94.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:58:38+08:00 ] 192.168.1.3 /course/index.php/Home/Introduction/team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\17576ba2f2f6c2d507b91ddf4d7c1878.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:58:48+08:00 ] 192.168.1.3 /course/index.php/Home/QA/onlineask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\ea93e9a4ab24ceb23d77060904fed692.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:58:50+08:00 ] 192.168.1.3 /course/index.php/Home/QA/excercise
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\0283245ce451126479085307f94ce5aa.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `excercise_set` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `excercise_set` WHERE ( excercise_count>0 ) ORDER BY setid  [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `excercise` [ RunTime:0.046800s ]
+SQL: SELECT * FROM `excercise` WHERE ( setid='1' ) ORDER BY id  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.187201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.187201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:58:56+08:00 ] 192.168.1.3 /course/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:58:57+08:00 ] 192.168.1.3 /course/Admin/index?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:59:02+08:00 ] 192.168.1.3 /course/admin/Teachingplan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\53675df9b4df506e1d66433c319c822e.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` ORDER BY id  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-01-10T15:59:04+08:00 ] 192.168.1.3 /course/admin/Teachingplan/dc?ch=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: DELETE FROM `chapter` WHERE ( id="2" ) [ RunTime:0.062400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:59:06+08:00 ] 192.168.1.3 /course/admin/Teachingplan/dc?ch=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: DELETE FROM `chapter` WHERE ( id="3" ) [ RunTime:0.046800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:59:08+08:00 ] 192.168.1.3 /course/admin/Teachingplan/dc?ch=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: DELETE FROM `chapter` WHERE ( id="4" ) [ RunTime:0.031201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:59:09+08:00 ] 192.168.1.3 /course/admin/Teachingplan/dc?ch=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: DELETE FROM `chapter` WHERE ( id="5" ) [ RunTime:0.046800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:59:11+08:00 ] 192.168.1.3 /course/admin/Teachingplan/dc?ch=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: DELETE FROM `chapter` WHERE ( id="6" ) [ RunTime:0.031200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:59:43+08:00 ] 192.168.1.3 /course/Admin/Teachingplan/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` WHERE ( id="1" )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `chapter` (`id`,`filename`) VALUES (1,'c1.swf') [ RunTime:0.031200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:59:48+08:00 ] 192.168.1.3 /course/Admin/Teachingplan/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` WHERE ( id="1" )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:59:56+08:00 ] 192.168.1.3 /course/Admin/Teachingplan/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` WHERE ( id="1" )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T15:59:57+08:00 ] 192.168.1.3 /course/admin/Teachingplan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\53675df9b4df506e1d66433c319c822e.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `chapter` ORDER BY id  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:04:10+08:00 ] 192.168.1.3 /course/Admin/Teachingplan/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` WHERE ( id="2" )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `chapter` (`id`,`filename`) VALUES (2,'c2.swf') [ RunTime:0.046800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:04:28+08:00 ] 192.168.1.3 /course/Admin/Teachingplan/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` WHERE ( id="3" )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `chapter` (`id`,`filename`) VALUES (3,'c3.swf') [ RunTime:0.031200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:04:29+08:00 ] 192.168.1.3 /course/admin/Teachingplan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\53675df9b4df506e1d66433c319c822e.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` ORDER BY id  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:05:38+08:00 ] 192.168.1.3 /course/Admin/Teachingplan/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` WHERE ( id="4" )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `chapter` (`id`,`filename`) VALUES (4,'c4.swf') [ RunTime:0.078000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:05:39+08:00 ] 192.168.1.3 /course/admin/Teachingplan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\53675df9b4df506e1d66433c319c822e.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` ORDER BY id  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:05:52+08:00 ] 192.168.1.3 /course/Admin/Teachingplan/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` WHERE ( id="5" )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `chapter` (`id`,`filename`) VALUES (5,'c5.swf') [ RunTime:0.031200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:05:53+08:00 ] 192.168.1.3 /course/admin/Teachingplan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\53675df9b4df506e1d66433c319c822e.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` ORDER BY id  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:06:06+08:00 ] 192.168.1.3 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:06:10+08:00 ] 192.168.1.3 /course/index.php/Home/Teachingplan/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\TeachingplanController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\course\Application\Home\Controller\TeachingplanController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\3feb751c9f6d8c1c5124aa93775478a8.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` ORDER BY id  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:06:28+08:00 ] 192.168.1.3 /course/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:06:30+08:00 ] 192.168.1.3 /course/Admin/index?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:06:53+08:00 ] 192.168.1.3 /course/admin/Teachingplan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\53675df9b4df506e1d66433c319c822e.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` ORDER BY id  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:07:00+08:00 ] 192.168.1.3 /course/admin/Excercise
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\850cb76675d07fd3984b62a711ad6e95.php 第 8 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `excercise_set` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `excercise_set` ORDER BY setid  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:07:03+08:00 ] 192.168.1.3 /course/admin/excercise/delete_set?ch=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `excercise_set` [ RunTime:0.000000s ]
+SQL: SELECT `excercise_count` FROM `excercise_set` WHERE ( setid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `excercise` [ RunTime:0.000000s ]
+SQL: DELETE FROM `excercise` WHERE ( setid='1' ) [ RunTime:0.062400s ]
+SQL: DELETE FROM `excercise_set` WHERE ( setid='1' ) [ RunTime:0.062400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:07:05+08:00 ] 192.168.1.3 /course/admin/excercise/delete_set?ch=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `excercise_set` [ RunTime:0.000000s ]
+SQL: SELECT `excercise_count` FROM `excercise_set` WHERE ( setid='2' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `excercise` [ RunTime:0.000000s ]
+SQL: DELETE FROM `excercise` WHERE ( setid='2' ) [ RunTime:0.124800s ]
+SQL: DELETE FROM `excercise_set` WHERE ( setid='2' ) [ RunTime:0.031200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:07:10+08:00 ] 192.168.1.3 /course/admin/Excercise/addSet?ch=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `excercise_set` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `excercise_set` WHERE ( setid='1' )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `excercise_set` (`setid`) VALUES (1) [ RunTime:0.062400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:07:11+08:00 ] 192.168.1.3 /course/admin/Excercise
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\850cb76675d07fd3984b62a711ad6e95.php 第 8 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `excercise_set` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `excercise_set` ORDER BY setid  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:07:13+08:00 ] 192.168.1.3 /course/admin/excercise/enter?ch=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\e5b79d5bcfdfcd34662625cabe6719a9.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `excercise` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `excercise` WHERE ( setid='1' ) ORDER BY id  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:07:15+08:00 ] 192.168.1.3 /course/admin/Excercise/addExcercise?ch=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\36aa766306d6f62d59fccf4a4d8b927a.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:08:10+08:00 ] 192.168.1.3 /course/admin/Excercise/saveAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `excercise` [ RunTime:0.000000s ]
+SQL: INSERT INTO `excercise` (`question`,`answer`,`setid`) VALUES ('<p>Week1练习：</p>\r\n\r\n<p>同学们回家后把口译教材第一单元的材料练习一下并录音，周日前统一交到学委处。</p>\r\n','<p>N/A</p>\r\n',1) [ RunTime:0.062400s ]
+SQL: SHOW COLUMNS FROM `excercise_set` [ RunTime:0.000000s ]
+SQL: SELECT `excercise_count` FROM `excercise_set` WHERE ( setid='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `excercise_set` SET `excercise_count`=1 WHERE ( setid='1' ) [ RunTime:0.031200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:08:11+08:00 ] 192.168.1.3 /course/admin/excercise/enter?ch=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\e5b79d5bcfdfcd34662625cabe6719a9.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `excercise` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `excercise` WHERE ( setid='1' ) ORDER BY id  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: chapter C:\wamp\www\course\Application\Runtime\Cache\Admin\e5b79d5bcfdfcd34662625cabe6719a9.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:08:40+08:00 ] 192.168.1.3 /course/admin/More
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\56e554d79f0be284c1871a58628b7896.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `extend` [ RunTime:0.046800s ]
+SQL: SELECT * FROM `extend` WHERE ( type="t" )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `extend` WHERE ( type="o" )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\course\Application\Runtime\Cache\Admin\56e554d79f0be284c1871a58628b7896.php 第 100 行.
+SQL: SELECT * FROM `extend` WHERE ( type="r" )  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:08:42+08:00 ] 192.168.1.3 /course/admin/More/deletenode?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `extend` [ RunTime:0.000000s ]
+SQL: DELETE FROM `extend` WHERE ( id="8" ) [ RunTime:0.031200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:08:43+08:00 ] 192.168.1.3 /course/admin/More/deletenode?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `extend` [ RunTime:0.000000s ]
+SQL: DELETE FROM `extend` WHERE ( id="9" ) [ RunTime:0.062400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-01-10T16:09:20+08:00 ] 192.168.1.3 /course/admin/More/save?titletn1=%E5%B9%BF%E5%A4%96%E8%8B%B1%E8%AF%AD%E5%8F%A3%E8%AF%91%E7%9B%B8%E5%85%B3%E4%BB%8B%E7%BB%8D&sitetn1=http://www1.gdufs.edu.cn/jwc/bestcourse/kecheng/2/index1.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `extend` [ RunTime:0.000000s ]
+SQL: INSERT INTO `extend` (`title`,`site`,`type`) VALUES ('广外英语口译相关介绍','http://www1.gdufs.edu.cn/jwc/bestcourse/kecheng/2/index1.htm','t') [ RunTime:0.062400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:09:40+08:00 ] 192.168.1.3 /course/admin/More/save?titletn2=%E4%BB%B2%E4%BC%9F%E5%90%88%E4%BB%8B%E7%BB%8D&sitetn2=http://baike.baidu.com/view/1886637.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `extend` [ RunTime:0.000000s ]
+SQL: INSERT INTO `extend` (`title`,`site`,`type`) VALUES ('仲伟合介绍','http://baike.baidu.com/view/1886637.htm','t') [ RunTime:0.062400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:09:42+08:00 ] 192.168.1.3 /course/admin/More
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\56e554d79f0be284c1871a58628b7896.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `extend` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `extend` WHERE ( type="t" )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `extend` WHERE ( type="o" )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\course\Application\Runtime\Cache\Admin\56e554d79f0be284c1871a58628b7896.php 第 100 行.
+SQL: SELECT * FROM `extend` WHERE ( type="r" )  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:09:44+08:00 ] 192.168.1.3 /course/admin/Onlineask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\f7723d90b8573ba8014b18ac25cb2294.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.046800s ]
+SQL: SELECT * FROM `question` WHERE ( have_answer="n" )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\course\Application\Runtime\Cache\Admin\f7723d90b8573ba8014b18ac25cb2294.php 第 83 行.
+SQL: SELECT * FROM `question` WHERE ( have_answer="y" )  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:09:45+08:00 ] 192.168.1.3 /course/admin/More
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\56e554d79f0be284c1871a58628b7896.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `extend` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `extend` WHERE ( type="t" )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `extend` WHERE ( type="o" )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\course\Application\Runtime\Cache\Admin\56e554d79f0be284c1871a58628b7896.php 第 100 行.
+SQL: SELECT * FROM `extend` WHERE ( type="r" )  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:09:47+08:00 ] 192.168.1.3 /course/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:11:16+08:00 ] 192.168.1.3 /course/index.php/Home/Introduction/outline
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\5c0f7f0ea280e00c8541139fa87469db.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:11:31+08:00 ] 192.168.1.3 /course/index.php/Home/Introduction/calendar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\4ae7a71b42daebfff1a7b9b487cdfb94.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-01-10T16:11:40+08:00 ] 192.168.1.3 /course/index.php/Home/Introduction/team
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\17576ba2f2f6c2d507b91ddf4d7c1878.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-01-10T16:11:44+08:00 ] 192.168.1.3 /course/index.php/Home/Teachingplan/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\TeachingplanController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\course\Application\Home\Controller\TeachingplanController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\3feb751c9f6d8c1c5124aa93775478a8.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` ORDER BY id  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:11:50+08:00 ] 192.168.1.3 /course/index.php/Home/Teachingplan/download
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\TeachingplanController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\course\Application\Home\Controller\TeachingplanController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\a940657fb7ce344891df887c16a54c3e.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-01-10T16:11:52+08:00 ] 192.168.1.3 /course/index.php/Home/QA/excercise
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\0283245ce451126479085307f94ce5aa.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `excercise_set` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `excercise_set` WHERE ( excercise_count>0 ) ORDER BY setid  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `excercise` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `excercise` WHERE ( setid='1' ) ORDER BY id  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:12:02+08:00 ] 192.168.1.3 /course/index.php/Home/QA/onlineask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\ea93e9a4ab24ceb23d77060904fed692.php 第 3 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:12:04+08:00 ] 192.168.1.3 /course/index.php/Home/QA/excercise
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\0283245ce451126479085307f94ce5aa.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `excercise_set` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `excercise_set` WHERE ( excercise_count>0 ) ORDER BY setid  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `excercise` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `excercise` WHERE ( setid='1' ) ORDER BY id  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:12:06+08:00 ] 192.168.1.3 /course/index.php/Home/More
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `extend` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `extend` WHERE ( type='t' )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `extend` WHERE ( type='o' )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `extend` WHERE ( type='r' )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\course\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:12:12+08:00 ] 192.168.1.3 /course/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:12:14+08:00 ] 192.168.1.3 /course/Admin/index?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:12:15+08:00 ] 192.168.1.3 /course/admin/More
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\56e554d79f0be284c1871a58628b7896.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `extend` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `extend` WHERE ( type="t" )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `extend` WHERE ( type="o" )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\course\Application\Runtime\Cache\Admin\56e554d79f0be284c1871a58628b7896.php 第 100 行.
+SQL: SELECT * FROM `extend` WHERE ( type="r" )  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:12:18+08:00 ] 192.168.1.3 /course/admin/More/deletenode?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `extend` [ RunTime:0.000000s ]
+SQL: DELETE FROM `extend` WHERE ( id="7" ) [ RunTime:0.062401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-01-10T16:12:21+08:00 ] 192.168.1.3 /course/admin/Onlineask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\f7723d90b8573ba8014b18ac25cb2294.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `question` WHERE ( have_answer="n" )  [ RunTime:0.015600s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\course\Application\Runtime\Cache\Admin\f7723d90b8573ba8014b18ac25cb2294.php 第 83 行.
+SQL: SELECT * FROM `question` WHERE ( have_answer="y" )  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:12:21+08:00 ] 192.168.1.3 /course/admin/Excercise
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\850cb76675d07fd3984b62a711ad6e95.php 第 8 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `excercise_set` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `excercise_set` ORDER BY setid  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:12:22+08:00 ] 192.168.1.3 /course/admin/Teachingplan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015600s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\53675df9b4df506e1d66433c319c822e.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `chapter` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `chapter` ORDER BY id  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:12:22+08:00 ] 192.168.1.3 /course/admin/Introduction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `introduction` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `introduction`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `team` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `team`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: i C:\wamp\www\course\Application\Runtime\Cache\Admin\17f4e4093d50035dfb8ab47926315f2a.php 第 237 行.
+SQL: SHOW COLUMNS FROM `director` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `director`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-10T16:12:23+08:00 ] 192.168.1.3 /course/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title C:\wamp\www\course\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 3 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\course\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
